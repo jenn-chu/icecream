@@ -1,0 +1,14 @@
+site_name: Acta Cryologica
+nav:
+  - Home: index.md
+  - Experiments:
+    - Comparisons: experiments/comparisons/index.md
+    - New flavors:
+      - Mango Pomelo: experiments/new-flavors/mango-pomelo.md
+  - Base Recipes:
+    - Custard Base: base-recipes/custard-base.md
+  - Plots: plots/index.md
+theme:
+  name: simple-blog
+  features:
+    - search.suggest
