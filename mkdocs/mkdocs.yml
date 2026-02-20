@@ -2,12 +2,11 @@ site_name: Acta Cryologica
 nav:
   - Home: index.md
   - Experiments:
-    - Comparisons: experiments/comparisons/index.md
-    - New flavors:
-      - Mango Pomelo: experiments/new-flavors/mango-pomelo.md
-  - Base Recipes:
+    - Comparisons: experiments/comparisons.md # works for a page
+    - New flavors: experiments/new-flavors/index.md # Need index.md for nesting past this level
+  - Base Recipes: 
     - Custard Base: base-recipes/custard-base.md
-  - Plots: plots/index.md
+  - Plots: plots/plots.md
 theme:
   name: simple-blog
   features:
