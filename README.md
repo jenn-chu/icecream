@@ -16,6 +16,9 @@ Git check in for code continuity:
 ```bash
 # git add . # VERY BAD PRACTICE, DON'T DO!!!
 git add docs/base-recipes/custard-base.md
+# ... and anything else
+git commit -m "some message"
+git push
 ```
 
 Deploy to GitHub:
